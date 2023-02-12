@@ -16,3 +16,16 @@ function find(ary) {
 }
 
 console.log(find(ary));
+
+//用for-loop
+function find(ary2) {
+  let result = [];
+  for (let i = 0; i < ary.length; i++) {
+    if (ary[i] > 10) {
+      result.push(ary[i]);
+      break
+    }
+  }
+  return result;
+}
+console.log(find(ary2));
