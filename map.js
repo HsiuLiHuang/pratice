@@ -17,3 +17,6 @@ function map(B) {
 }
 
 console.log(map(B));
+
+let f=20;
+console.log(f);
